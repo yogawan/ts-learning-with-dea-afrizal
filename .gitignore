@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Jest cache
+jest-cache/
+jest.config.js
+jest.config.ts
+
+# Optional: ignore compiled JavaScript files (if you mix js/ts)
+*.js
+*.js.map
